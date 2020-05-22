@@ -4,11 +4,11 @@
       test: [
         {
           id: 1,//省份ID
-          province: "北京市",//省份或直辖市
-          school: [//当前省份下的所有学校
+          text: "北京市",//省份或直辖市
+          children: [//当前省份下的所有学校
             {
               id: 10000,//学校id
-              name: "北京大学"//学校名称
+              text: "北京大学"//学校名称
             },
             {
               ......
@@ -17,8 +17,8 @@
         },
         {
           id: 2,
-          province: "xx省",
-          school: [
+          text: "xx省",
+          children: [
             {
               id: 20000,
               name: "xxx大学"
